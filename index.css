@@ -10,7 +10,9 @@
     scroll-behavior: smooth;
 }
 body{
+    height: auto;
     background-color: #17171F;
+    overflow-x: hidden;
 }
 /* nav bar */
 #nav-bar{
@@ -22,8 +24,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     border-bottom: 1px solid transparent;
-   
-    /*border-image: linear-gradient(to right, rgba(38, 38,63, 0), rgba(103, 103, 209, 100)) 1;*/
 }
 #line{
     background-image: linear-gradient(to right, rgba(38, 38,63, 100), rgba(103, 103, 209, 100));
@@ -100,4 +100,87 @@ body{
     padding-left: 5px;
     padding-right: 15px;
     border-radius: 10px;
+}
+/* about */
+#about-container{
+    height: 150px;
+    margin-left: 100px;
+}
+#greetings-container{
+    display: flex;
+    width: fit-content;
+    position: absolute;
+    top: 871px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    border: 1px solid #FF5C00;
+}
+#gap-size{
+    position: absolute;
+    top: 870px;
+    left: 335px;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FF5C00;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: white;
+}
+#line2{
+    position: absolute;
+    top: 893px;
+    left: 235px;
+    border: 0.5px dashed #FF5C00;
+    width: 120px;
+}
+#line3{
+    position: absolute;
+    top: 895px;
+    left: 354px;
+    border: 0.5px dashed #FF5C00;
+    height: 20px;
+    width: 1px;
+}
+#text-container{
+    width: fit-content;
+    position: absolute;
+    top: 915px;
+    padding: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    border: 0.5px solid #0094FF;
+}
+#box1, #box2, #box3, #box4{
+    height: 6px;
+    width: 6px;
+    background-color: white;
+}
+#box1{
+    position: absolute;
+    left: 98px;
+    top: 912px;
+}
+#box2{
+    position: absolute;
+    left: 618px;
+    top: 912px;
+}
+#box3{
+    position: absolute;
+    left: 98px;
+    top: 990px;
+}
+#box4{
+    position: absolute;
+    left: 618px;
+    top: 990px;
+}
+/* skills */
+#skills-container{
+    height: 500px;
+    background-color: #232341;
 }
