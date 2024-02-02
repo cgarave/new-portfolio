@@ -1,26 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Script&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
-    font-size: 14px;
 }
 body{
     background-color: #17171F;
-    
 }
+/* nav bar */
 #nav-bar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     padding: 20px;
-    border-bottom: 1px solid red;
-    border-image: linear-gradient(to right, rgba(38, 38,63, 0), rgba(103, 103, 209, 100)) 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border-bottom: 1px solid transparent;
+   
+    /*border-image: linear-gradient(to right, rgba(38, 38,63, 0), rgba(103, 103, 209, 100)) 1;*/
+}
+#line{
+    background-image: linear-gradient(to right, rgba(38, 38,63, 100), rgba(103, 103, 209, 100));
+    height: 1px;
+    width: 100%;
+    animation-name: nav-bottom-border;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes nav-bottom-border {
+    0% {
+        opacity: 0;
+        width: 0%;
+    }
+    50% {
+        opacity: 1;
+        width: 100%;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
 }
 #logo{
     color: #FFFFFF;
@@ -36,4 +61,43 @@ body{
 #about:hover, #projects:hover, #ui-designs:hover, #hobby:hover{
     color: #FFFFFF;
     font-weight: 500;
+}
+/* header */
+.header{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nova Round', sans-serif;
+    font-size: 42px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.title-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+#fusing, #ignite, #unlock{
+    font-family: 'Nova Script', sans-serif;
+}
+#fusing{
+    color: #52FD6D;
+    text-shadow: 0 0 200px #52FD6D;
+
+}
+#ignite{
+    color: #FF9315;
+    text-shadow: 0 0 200px #FF9315;
+}
+#unlock{
+    color: #B592FF;
+    text-shadow: 0 0 200px #B592FF;
+}
+#unlock-text-container{
+    background-color: #232341;
+    border: 1px solid #B592FF;
+    padding-left: 5px;
+    padding-right: 15px;
+    border-radius: 10px;
 }
