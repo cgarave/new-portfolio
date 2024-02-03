@@ -55,10 +55,17 @@ body{
     display: flex;
     column-gap: 30px;
     font-weight: 400;
-    color: #4E4E69;
     cursor: pointer;
 }
-#about:hover, #projects:hover, #ui-designs:hover, #hobby:hover{
+#nav-buttons a{
+    text-decoration: none;
+    color: #4E4E69;
+}
+#about{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+#projects:hover, #ui-designs:hover, #hobby:hover{
     color: #FFFFFF;
     font-weight: 500;
 }
@@ -113,6 +120,7 @@ body{
     top: 871px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    font-size: 16px;
     color: white;
     border: 1px solid #FF5C00;
 }
@@ -181,6 +189,80 @@ body{
 }
 /* skills */
 #skills-container{
-    height: 500px;
-    background-color: #232341;
+    height: auto;
+    margin-left: 100px;
+}
+#skills-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#skills-icons-container{
+    display: flex;
+    column-gap: 10px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: auto;
+    align-items: center;
+    row-gap: 5px;
+    text-wrap: nowrap;
+}
+.icons img{
+    width: 50px;
+}
+.icons-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 12px;
+    visibility: hidden;
+    margin-top: 15px;
+}
+.icons:hover img{
+    transform: scale(1.5);
+}
+.icons:hover .icons-text{
+    visibility: visible;
+    transform: scale(1.2);
+    margin-top: 15px;
+}
+/* projects, ui-designs, hobby */
+#projects-container, #ui-designs-container, #hobby-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    padding: 10px;
+    margin: 20px 100px 50px 100px;
+    border: 1px solid #272940;
+    border-radius: 10px;
+    row-gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 14px;
+}
+#action-buttons-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+}
+.action-buttons{
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+}
+#action-btn1{
+    background-color: #D84141;
+}
+#action-btn2{
+    background-color: #D8AE41;
+}
+#action-btn3{
+    background-color: #33BA49;
 }
