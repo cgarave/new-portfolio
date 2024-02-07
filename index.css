@@ -214,6 +214,8 @@ body{
 }
 .icons img{
     width: 50px;
+    transition: 0.1s;
+    border-radius: 5px;
 }
 .icons-text{
     font-family: 'Montserrat', sans-serif;
@@ -225,6 +227,7 @@ body{
 }
 .icons:hover img{
     transform: scale(1.5);
+    box-shadow: 0 0 100px #0094FF;
 }
 .icons:hover .icons-text{
     visibility: visible;
@@ -236,16 +239,17 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: auto;
+    min-width: 315px;
     padding: 10px;
-    margin: 20px 100px 50px 100px;
+    margin: 20px 80px 50px 80px;
     border: 1px solid #272940;
     border-radius: 10px;
-    row-gap: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: white;
     font-size: 14px;
+    overflow: hidden;
 }
 #action-buttons-container{
     display: flex;
