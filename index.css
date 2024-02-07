@@ -65,7 +65,7 @@ body{
     color: #FFFFFF;
     font-weight: 500;
 }
-#projects:hover, #ui-designs:hover, #hobby:hover{
+#projects:hover, #ui-designs:hover{
     color: #FFFFFF;
     font-weight: 500;
 }
@@ -235,7 +235,7 @@ body{
     margin-top: 15px;
 }
 /* projects, ui-designs, hobby */
-#projects-container, #ui-designs-container, #hobby-container{
+#projects-container, #ui-designs-container{
     position: relative;
     display: flex;
     flex-direction: column;
