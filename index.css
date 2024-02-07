@@ -196,8 +196,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: white;
-    font-size: 16px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 #skills-icons-container{
     display: flex;

@@ -26,7 +26,7 @@
     width: 250px;
     height: auto;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #232332;
     overflow: hidden;
     padding: 10px;
 
@@ -55,4 +55,28 @@
     font-size: 12px;
     font-weight: 400;
     color: #777ba7;
+}
+
+/*Projects*/
+.project-card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 1px solid #272940;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+.project-image-container{
+    display: flex;
+    width: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #232332;
+}
+.project-image-container img{
+    width: 430px;
+    border-radius: 5px;
 }
