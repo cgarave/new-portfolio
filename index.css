@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Script&display=swap');
 *{
@@ -24,7 +25,7 @@ body{
     justify-content: space-between;
     width: 100%;
     padding: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 14px;
     border-bottom: 1px solid transparent;
 }
@@ -52,7 +53,7 @@ body{
 }
 #logo{
     color: #FFFFFF;
-    font-weight: 900;
+    font-weight: 800;
 }
 #nav-buttons{
     display: flex;
@@ -113,7 +114,7 @@ body{
 }
 /* about */
 #about-container{
-    height: 150px;
+    height: 135px;
     margin-left: 100px;
 }
 #greetings-container{
@@ -121,7 +122,7 @@ body{
     width: fit-content;
     position: absolute;
     top: 871px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: white;
@@ -130,21 +131,21 @@ body{
 #gap-size{
     position: absolute;
     top: 870px;
-    left: 335px;
+    left: 355px;
     width: fit-content;
     padding: 5px;
     border-radius: 5px;
     background-color: #FF5C00;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 10px;
     color: white;
 }
 #line2{
     position: absolute;
-    top: 893px;
-    left: 235px;
+    top: 894px;
+    left: 225px;
     border: 0.5px dashed #FF5C00;
-    width: 120px;
+    width: 130px;
 }
 #line3{
     position: absolute;
@@ -159,7 +160,7 @@ body{
     position: absolute;
     top: 915px;
     padding: 2px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: white;
@@ -177,18 +178,18 @@ body{
 }
 #box2{
     position: absolute;
-    left: 618px;
+    left: 572px;
     top: 912px;
 }
 #box3{
     position: absolute;
     left: 98px;
-    top: 990px;
+    top: 999px;
 }
 #box4{
     position: absolute;
-    left: 618px;
-    top: 990px;
+    left: 572px;
+    top: 999px;
 }
 /* skills */
 #skills-container{
@@ -196,7 +197,7 @@ body{
     margin-left: 100px;
 }
 #skills-text{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 500;
     color: white;
     font-size: 20px;
@@ -221,7 +222,7 @@ body{
     border-radius: 5px;
 }
 .icons-text{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 500;
     color: white;
     font-size: 12px;
@@ -248,7 +249,7 @@ body{
     margin: 20px 80px 50px 80px;
     border: 1px solid #272940;
     border-radius: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 500;
     color: white;
     font-size: 14px;
@@ -284,7 +285,7 @@ footer{
     width: 100%;
     justify-content: space-between;
     padding: 60px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 500;
     color: white;
     font-size: 14px;
@@ -328,7 +329,7 @@ footer{
 }
 #version-text1, #socials-text1{
     color: rgb(127, 127, 127);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 500;
     font-size: 10px;
 }
@@ -339,7 +340,7 @@ footer{
 }
 #version-number, #facebook, #linkedin{
     color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: 500;
     color: white;
     font-size: 12px;
