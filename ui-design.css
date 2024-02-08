@@ -54,7 +54,7 @@
     margin: 10px 0 5px 0;
 }
 .card-description{
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     color: #777ba7;
 }
@@ -65,7 +65,7 @@
     flex-direction: column;
     border: 1px solid #272940;
     border-radius: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     padding: 10px;
     margin: 10px;
 }

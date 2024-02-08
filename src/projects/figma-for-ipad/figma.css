@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    height: auto;
+    background-color: #17171F;
+    overflow-x: hidden;
+}
+.links{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    margin: 50px 0px 10px 0px;
+    color: white;
+}
+p{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: white;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.image-container img{
+    width: 1200px;
+    border-radius: 10px;
+}
+.row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+.row-container img{
+    width: 750px;
+    border-radius: 10px;
+}
