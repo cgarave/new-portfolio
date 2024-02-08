@@ -12,7 +12,7 @@
 .card{
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width: 272px;
     height: fit-content;
     border: 1px solid #272940;
     border-radius: 10px;
@@ -23,7 +23,7 @@
 .card-image-container{
     display: flex;
     justify-content: center;
-    width: 250px;
+    width: auto;
     height: auto;
     border-radius: 5px;
     background-color: #232332;
@@ -45,6 +45,7 @@
 }
 .card-text-container{
     height: 100px;
+    width: auto;
 }
 .card-title{
     font-size: 14px;
@@ -62,7 +63,6 @@
 .project-card{
     display: flex;
     flex-direction: column;
-    width: fit-content;
     border: 1px solid #272940;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -71,14 +71,14 @@
 }
 .project-image-container{
     display: flex;
-    width: auto;
+    height: 311.5px;
     border-radius: 5px;
     overflow: hidden;
     padding: 10px;
     background-color: #232332;
 }
 .project-image-container img{
-    width: 430px;
+    height: auto;
     border-radius: 5px;
     transition: 1s;
 }
