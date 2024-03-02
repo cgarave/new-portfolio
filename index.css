@@ -95,16 +95,16 @@ body{
 }
 #fusing{
     color: #52FD6D;
-    text-shadow: 0 0 200px #52FD6D;
+    text-shadow: 0 0 40px #52FD6D;
 
 }
 #ignite{
     color: #FF9315;
-    text-shadow: 0 0 200px #FF9315;
+    text-shadow: 0 0 40px #FF9315;
 }
 #unlock{
     color: #B592FF;
-    text-shadow: 0 0 200px #B592FF;
+    text-shadow: 0 0 40px #B592FF;
 }
 #unlock-text-container{
     width: fit-content;
@@ -117,42 +117,43 @@ body{
 /* about */
 #about-container{
     height: 135px;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 #greetings-container{
     display: flex;
+    align-items: center;
     width: fit-content;
     position: absolute;
-    top: 871px;
+    top: 371px;
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 10px;
     color: white;
     border: 1px solid #FF5C00;
 }
 #gap-size{
     position: absolute;
-    top: 870px;
-    left: 355px;
+    top: 373px;
+    left: 150px;
     width: fit-content;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 3px;
+    border-radius: 2px;
     background-color: #FF5C00;
     font-family: 'Manrope', sans-serif;
-    font-size: 10px;
+    font-size: 6px;
     color: white;
 }
 #line2{
     position: absolute;
-    top: 894px;
-    left: 225px;
+    top: 386px;
+    left: 100px;
     border: 0.5px dashed #FF5C00;
-    width: 130px;
+    width: 60px;
 }
 #line3{
     position: absolute;
-    top: 895px;
-    left: 354px;
+    top: 385px;
+    left: 150px;
     border: 0.5px dashed #FF5C00;
     height: 20px;
     width: 1px;
@@ -160,38 +161,39 @@ body{
 #text-container{
     width: fit-content;
     position: absolute;
-    top: 915px;
+    top: 405px;
     padding: 2px;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 10px;
     color: white;
     border: 0.5px solid #0094FF;
+    overflow: hidden;
 }
 #box1, #box2, #box3, #box4{
-    height: 6px;
-    width: 6px;
+    height: 4px;
+    width: 4px;
     background-color: white;
 }
 #box1{
     position: absolute;
-    left: 98px;
-    top: 912px;
+    left: 18px;
+    top: 403px;
 }
 #box2{
     position: absolute;
-    left: 572px;
-    top: 912px;
+    left: 18px;
+    top: 450px;
 }
 #box3{
     position: absolute;
-    left: 98px;
-    top: 999px;
+    left: 258px;
+    top: 403px;
 }
 #box4{
     position: absolute;
-    left: 572px;
-    top: 999px;
+    left: 258px;
+    top: 450px;
 }
 /* skills */
 #skills-container{
@@ -353,11 +355,18 @@ footer{
     align-self: center;
 }
 
+
+
+
+
+
+/*Desktop*/
 @media only screen and (width >= 427px){
     #nav-bar {
         width: 100%;
         font-size: 14px;
     }
+    /* title */
     .header{
         height: 90vh;
         display: flex;
@@ -381,5 +390,85 @@ footer{
         padding-left: 5px;
         padding-right: 15px;
         border-radius: 10px;
+    }
+    /* about */
+    #about-container{
+        height: 135px;
+        margin-left: 100px;
+    }
+    #greetings-container{
+        display: flex;
+        width: fit-content;
+        position: absolute;
+        top: 871px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: white;
+        border: 1px solid #FF5C00;
+    }
+    #gap-size{
+        position: absolute;
+        top: 870px;
+        left: 355px;
+        width: fit-content;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #FF5C00;
+        font-family: 'Manrope', sans-serif;
+        font-size: 10px;
+        color: white;
+    }
+    #line2{
+        position: absolute;
+        top: 894px;
+        left: 225px;
+        border: 0.5px dashed #FF5C00;
+        width: 130px;
+    }
+    #line3{
+        position: absolute;
+        top: 895px;
+        left: 354px;
+        border: 0.5px dashed #FF5C00;
+        height: 20px;
+        width: 1px;
+    }
+    #text-container{
+        width: fit-content;
+        position: absolute;
+        top: 915px;
+        padding: 2px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: white;
+        border: 0.5px solid #0094FF;
+        overflow: hidden;
+    }
+    #box1, #box2, #box3, #box4{
+        height: 6px;
+        width: 6px;
+        background-color: white;
+    }
+    #box1{
+        position: absolute;
+        left: 98px;
+        top: 912px;
+    }
+    #box2{
+        position: absolute;
+        left: 572px;
+        top: 912px;
+    }
+    #box3{
+        position: absolute;
+        left: 98px;
+        top: 999px;
+    }
+    #box4{
+        position: absolute;
+        left: 572px;
+        top: 999px;
     }
 }
