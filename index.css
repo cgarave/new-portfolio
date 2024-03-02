@@ -78,16 +78,17 @@ body{
     height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     font-family: 'Nova Round', sans-serif;
-    font-size: 42px;
+    font-size: 14px;
     color: #FFFFFF;
     text-align: center;
+    margin-top: 30px;
 }
 .title-container{
     display: flex;
-    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
 }
 #fusing, #ignite, #unlock{
     font-family: 'Nova Script', sans-serif;
@@ -106,6 +107,7 @@ body{
     text-shadow: 0 0 200px #B592FF;
 }
 #unlock-text-container{
+    width: fit-content;
     background-color: #232341;
     border: 1px solid #B592FF;
     padding-left: 5px;
@@ -351,9 +353,33 @@ footer{
     align-self: center;
 }
 
-@media only screen and (min-width: 426px){
+@media only screen and (width >= 427px){
     #nav-bar {
         width: 100%;
         font-size: 14px;
+    }
+    .header{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Nova Round', sans-serif;
+        font-size: 42px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .title-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    #unlock-text-container{
+        background-color: #232341;
+        border: 1px solid #B592FF;
+        padding-left: 5px;
+        padding-right: 15px;
+        border-radius: 10px;
     }
 }
