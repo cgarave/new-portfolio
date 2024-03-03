@@ -29,6 +29,10 @@ body{
     font-size: 10px;
     border-bottom: 1px solid transparent;
 }
+#line-container{
+    width: 100vw;
+    overflow-x: hidden;
+}
 #line{
     background-image: linear-gradient(to right, rgba(38, 38,63, 100), rgba(103, 103, 209, 100));
     height: 1px;
@@ -199,6 +203,7 @@ body{
 #skills-container{
     height: auto;
     margin-left: 20px;
+    margin-right: 20px;
 }
 #skills-text{
     font-family: 'Manrope', sans-serif;
@@ -253,7 +258,7 @@ body{
     height: auto;
     min-width: 315px;
     padding: 10px;
-    margin: 20px 20px 50px 20px;
+    margin: 20px 20px 20px 20px;
     border: 1px solid #272940;
     border-radius: 10px;
     font-family: 'Manrope', sans-serif;
@@ -363,7 +368,7 @@ footer{
 
 
 /*Desktop*/
-@media only screen and (width >= 427px){
+@media only screen and (width >= 431px){
     #nav-bar {
         width: 100%;
         font-size: 14px;
@@ -477,6 +482,7 @@ footer{
     #skills-container{
         height: auto;
         margin-left: 100px;
+        margin-right: 100px;
     }
     #skills-text{
         font-family: 'Manrope', sans-serif;
