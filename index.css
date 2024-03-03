@@ -75,7 +75,7 @@ body{
 }
 /* header */
 .header{
-    height: 90vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +116,7 @@ body{
 }
 /* about */
 #about-container{
-    height: 135px;
+    height: 100px;
     margin-left: 20px;
 }
 #greetings-container{
@@ -198,40 +198,40 @@ body{
 /* skills */
 #skills-container{
     height: auto;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 #skills-text{
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     color: white;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 10px;
+    margin-bottom: 10px;
 }
 #skills-icons-container{
     display: flex;
-    column-gap: 10px;
+    flex-wrap: wrap;
+    column-gap: 5px;
 }
 .icons{
     display: flex;
     flex-direction: column;
-    width: 50px;
+    width: 30px;
     height: auto;
     align-items: center;
-    row-gap: 5px;
     text-wrap: nowrap;
+    margin-bottom: 0px;
 }
 .icons img{
-    width: 50px;
+    width: 30px;
     transition: 0.1s;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 .icons-text{
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     visibility: hidden;
-    margin-top: 15px;
 }
 .icons:hover img{
     transform: scale(1.5);
@@ -240,7 +240,10 @@ body{
 .icons:hover .icons-text{
     visibility: visible;
     transform: scale(1.2);
-    margin-top: 15px;
+}
+.icons:hover{
+    margin-bottom: 10px;
+    row-gap: 10px;
 }
 /* projects, ui-designs, hobby */
 #projects-container, #ui-designs-container{
@@ -250,23 +253,23 @@ body{
     height: auto;
     min-width: 315px;
     padding: 10px;
-    margin: 20px 80px 50px 80px;
+    margin: 20px 20px 50px 20px;
     border: 1px solid #272940;
     border-radius: 10px;
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     color: white;
-    font-size: 14px;
+    font-size: 10px;
     overflow: hidden;
 }
 #action-buttons-container{
     display: flex;
     flex-direction: row;
-    column-gap: 8px;
+    column-gap: 4px;
 }
 .action-buttons{
-    width: 12px;
-    height: 12px;
+    width: 6px;
+    height: 6px;
     border-radius: 50px;
 }
 #action-btn1{
@@ -286,13 +289,14 @@ footer{
 .footer-container-row{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
-    padding: 60px;
+    padding: 20px;
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     color: white;
-    font-size: 14px;
+    font-size: 10px;
 }
 .footer-container-column{
     display: flex;
@@ -300,13 +304,13 @@ footer{
 }
 .footer-text-1, #footer-h1{
     color: whitesmoke;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 .footer-text-1, #footer-pg{
     color: whitesmoke;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .footer-text-2{
     display: flex;
@@ -315,13 +319,18 @@ footer{
 }
 .footer-text-2 p{
     color: whitesmoke;
-    padding: 20px;
+    padding: 8px;
     border: 1px solid whitesmoke;
-    border-radius: 100px;
+    border-radius: 50px;
 }
 .footer-text-2 p:hover{
     background-color: whitesmoke;
     color: black;
+}
+/* footer image */
+#footer-image{
+    display: none;
+    height: 100px;
 }
 /* version and socials */
 .footer-text-3{
@@ -335,7 +344,7 @@ footer{
     color: rgb(127, 127, 127);
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 8px;
 }
 .socials-row1{
     display: flex;
@@ -347,15 +356,8 @@ footer{
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
 }
-/* footer image */
-#footer-image{
-    height: 200px;
-    align-self: center;
-}
-
-
 
 
 
@@ -471,4 +473,165 @@ footer{
         left: 572px;
         top: 999px;
     }
+    /*skills*/
+    #skills-container{
+        height: auto;
+        margin-left: 100px;
+    }
+    #skills-text{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #skills-icons-container{
+        display: flex;
+        column-gap: 10px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+        height: auto;
+        align-items: center;
+        row-gap: 5px;
+        text-wrap: nowrap;
+    }
+    .icons img{
+        width: 50px;
+        transition: 0.1s;
+        border-radius: 5px;
+    }
+    .icons-text{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 12px;
+        visibility: hidden;
+        margin-top: 15px;
+    }
+    .icons:hover img{
+        transform: scale(1.5);
+        box-shadow: 0 0 100px #0094FF;
+    }
+    .icons:hover .icons-text{
+        visibility: visible;
+        transform: scale(1.2);
+        margin-top: 15px;
+    }
+    /*projects, ui-designs*/
+    #projects-container, #ui-designs-container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-width: 315px;
+        padding: 10px;
+        margin: 20px 80px 50px 80px;
+        border: 1px solid #272940;
+        border-radius: 10px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 14px;
+        overflow: hidden;
+    }
+    #action-buttons-container{
+        display: flex;
+        flex-direction: row;
+        column-gap: 8px;
+    }
+    .action-buttons{
+        width: 12px;
+        height: 12px;
+        border-radius: 50px;
+    }
+    #action-btn1{
+        background-color: #D84141;
+    }
+    #action-btn2{
+        background-color: #D8AE41;
+    }
+    #action-btn3{
+        background-color: #33BA49;
+    }
+    /*Footer*/
+    footer{
+        height: auto;
+        background-color: rgb(17, 18, 28);
+    }
+    .footer-container-row{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        padding: 60px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 14px;
+    }
+    .footer-container-column{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-text-1, #footer-h1{
+        color: whitesmoke;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .footer-text-1, #footer-pg{
+        color: whitesmoke;
+        margin-bottom: 50px;
+    }
+    .footer-text-2{
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+    }
+    .footer-text-2 p{
+        color: whitesmoke;
+        padding: 20px;
+        border: 1px solid whitesmoke;
+        border-radius: 100px;
+    }
+    .footer-text-2 p:hover{
+        background-color: whitesmoke;
+        color: black;
+    }
+    /* version and socials */
+    .footer-text-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+    }
+    #version-text1, #socials-text1{
+        color: rgb(127, 127, 127);
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .socials-row1{
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+    }
+    #version-number, #facebook, #linkedin{
+        color: whitesmoke;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 12px;
+    }
+    /* footer image */
+    #footer-image{
+        display: block;
+        height: 200px;
+        align-self: center;
+    }
+    
 }
