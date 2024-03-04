@@ -38,7 +38,7 @@ body{
     height: 1px;
     width: 100%;
     animation-name: nav-bottom-border;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 @keyframes nav-bottom-border {
@@ -79,7 +79,7 @@ body{
 }
 /* header */
 .header{
-    height: 30vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,16 +99,16 @@ body{
 }
 #fusing{
     color: #52FD6D;
-    text-shadow: 0 0 40px #52FD6D;
+    text-shadow: 0 0 20px #52FD6D;
 
 }
 #ignite{
     color: #FF9315;
-    text-shadow: 0 0 40px #FF9315;
+    text-shadow: 0 0 20px #FF9315;
 }
 #unlock{
     color: #B592FF;
-    text-shadow: 0 0 40px #B592FF;
+    text-shadow: 0 0 20px #B592FF;
 }
 #unlock-text-container{
     width: fit-content;
@@ -320,13 +320,14 @@ footer{
 .footer-text-2{
     display: flex;
     flex-direction: row;
-    column-gap: 10px;
+    flex-wrap: wrap;
 }
 .footer-text-2 p{
     color: whitesmoke;
-    padding: 8px;
+    padding: 10px;
     border: 1px solid whitesmoke;
     border-radius: 50px;
+    margin: 5px;
 }
 .footer-text-2 p:hover{
     background-color: whitesmoke;

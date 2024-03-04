@@ -13,7 +13,7 @@
 .card{
     display: flex;
     flex-direction: column;
-    width: 164px;
+    width: 140px;
     height: fit-content;
     border: 1px solid #272940;
     border-radius: 10px;
@@ -40,11 +40,11 @@
     border-radius: 5px;
     transition-duration: 0.5s;
 }
-.card-image-container:hover img{
+/* .card-image-container:hover img{
     height: 270px;  
-}
+} */
 .card-text-container{
-    height: 100px;
+    height: 120px;
     width: auto;
 }
 .card-title{
@@ -85,9 +85,9 @@
     border-radius: 5px;
     transition: 1s;
 }
-.project-image-container:hover img{
+/* .project-image-container:hover img{
     transform: scale(1.2);
-}
+} */
 
 @media only screen and (width >= 431px){
     .card-container{
